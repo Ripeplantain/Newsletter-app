@@ -1,0 +1,38 @@
+# Ignore vendor directory created by Composer
+/vendor/
+
+# Ignore node_modules directory created by npm or Yarn
+/node_modules/
+
+# Ignore log files
+/log/*.log
+
+# Ignore environment-specific configuration files
+/config/*.env
+
+# Ignore user-specific configuration files
+/config/user-specific.php
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.sublime-*
+*.vssettings
+*.suo
+*.ntvs*
+
+# Ignore Composer lock file
+composer.lock
+
+# Ignore package-lock.json file (if using npm)
+package-lock.json
+
+# Ignore .env files with sensitive information (should never be committed)
+.env
+
+# Ignore any generated or compiled files
+*.phar
+*.sql
+
+# Ignore any backup files
+*~
